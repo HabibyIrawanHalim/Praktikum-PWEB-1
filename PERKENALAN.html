@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Gen Z</title>
+
+    <link rel="stylesheet" href="styleRegister.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="card">
+    <form id="registerForm" class="form">
+        <h1>Create Account ✨</h1>
+
+        <div class="input-group">
+            <i class='bx bxs-user'></i>
+            <input type="text" id="username" placeholder="" required>
+        </div>
+
+        <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+            <input type="password" id="password" placeholder="Password" required>
+        </div>
+
+        <button type="submit" class="btn">Save Data 💾</button>
+        <button type="button" class="btn clear" onclick="clearData()">Clear</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
